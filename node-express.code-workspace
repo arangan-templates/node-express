@@ -1,0 +1,41 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.fontFamily": "'FuraCode NF', Consolas, 'Courier New', monospace",
+		"window.zoomLevel": 0.20,
+		"editor.fontSize": 14,
+		"editor.matchBrackets": "near",
+		"files.encoding": "utf8",
+		"workbench.iconTheme": "vscode-icons",
+		"bracket-pair-colorizer-2.highlightActiveScope": true,
+		"bracket-pair-colorizer-2.activeScopeCSS": [
+			"borderStyle : solid",
+			"borderWidth : 2px",
+			"borderColor : {color}",
+			"opacity: 0.5"
+		],
+		"telemetry.enableTelemetry": false,
+		"workbench.sideBar.location": "right",
+		"files.exclude": {
+			".gitignore": true,
+			"*.code-workspace": true,
+			"*.sln": true,
+			"**/.vscode": true,
+			"**/bin": true,
+			"**/obj": true,
+			"**/node_modules":true,
+			"**/build":true
+		},
+		"vssolution.netcoreIgnore": [
+			".vscode",
+			"bin",
+			"*.sln",
+			"obj",
+			".ds_store"
+		] ,	
+	}
+}
