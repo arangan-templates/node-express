@@ -9,6 +9,7 @@
 		"window.zoomLevel": 0.20,
 		"editor.fontSize": 14,
 		"editor.matchBrackets": "near",
+		"editor.lineNumbers": "on",
 		"files.encoding": "utf8",
 		"workbench.iconTheme": "vscode-icons",
 		"bracket-pair-colorizer-2.highlightActiveScope": true,
@@ -23,10 +24,13 @@
 		"files.exclude": {
 			".gitignore": true,
 			"*.code-workspace": true,
-			"*.sln": true,
+			"LICENSE": true,
+			".eslintrc.json": true,
+			"tslint.json": true,
+			"tsconfig.json": true,
 			"**/.vscode": true,
-			"**/bin": true,
-			"**/obj": true,
+			"package-lock.json": true,
+			"README.md": true,
 			"**/node_modules":true,
 			"**/build":true
 		},
@@ -36,6 +40,7 @@
 			"*.sln",
 			"obj",
 			".ds_store"
-		] ,	
+		],
+		
 	}
 }

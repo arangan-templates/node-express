@@ -1,0 +1,11 @@
+{
+    "app": {
+        "port": 8080
+    },
+    
+    "databaseType": "file",
+
+    "file": {
+        "name": "/app_data/"
+    }
+}

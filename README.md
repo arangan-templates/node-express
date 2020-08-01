@@ -15,6 +15,15 @@ To change the PORT
 - Open the file `config/NODE_ENV.json` - eg. `config/development.json`
 - Set the `port` inside the json file
 
+#### REST Calls
+
+- To Seed some data call `/seed` , and `app_data/Users.json` will be created.
+- `GET` Get all users - `/api/Users`
+- `GET` Get User - `/api/Users/:id`
+- `POST` Add User - `/api/Users/Add`. Only x-www-form-urlencoded is currently supported
+- `PUT` Update User - `/api/Users/Update`
+- `DELETE` Delete User - `/api/Users/Delete/:id`
+
 To choose a custom license for your project use  
 [License](https://spdx.org/licenses/)
 

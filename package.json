@@ -1,5 +1,5 @@
 {
-  "name": "express-template",
+  "name": "recipe-api",
   "version": "1.0.0",
   "description": "An API to serve a simple REST application",
   "main": "src/app.ts",
@@ -9,7 +9,7 @@
     "build": "tsc",
     "prestart": "npm run build",
     "start": "npm run dev",
-    "dev": "ts-node-dev --respawn --transpile-only ./src/server.ts",
+    "dev": "ts-node-dev --respawn --transpile-only -r dotenv/config ./src/server.ts",
     "prod": "tsc && node ./build/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,9 +17,11 @@
   "license": "GPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arangan-templates/node-express"
+    "url": ""
   },
   "dependencies": {
+    "config": "^3.3.1",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1"
   },
   "devDependencies": {
