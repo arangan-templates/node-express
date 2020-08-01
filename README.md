@@ -11,8 +11,9 @@ A REST API implemented using Express
 
 To change the PORT
 
-- Open `server.ts`
-- Change `const port:number = 8080;`
+- Use the environment value set in the `NODE_ENV` variable inside the `.env` file at the root
+- Open the file `config/NODE_ENV.json` - eg. `config/development.json`
+- Set the `port` inside the json file
 
 To choose a custom license for your project use  
 [License](https://spdx.org/licenses/)
