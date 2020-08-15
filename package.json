@@ -5,7 +5,7 @@
   "main": "src/app.ts",
   "scripts": {
     "tsc": "tsc",
-    "prebuild": "eslint --fix src/** --ignore-pattern *.json",
+    "prebuild": "eslint --fix 'src/**' --ignore-pattern '*.json'",
     "build": "tsc",
     "prestart": "npm run build",
     "start": "npm run dev",
